@@ -1,0 +1,93 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: #011f3c;
+}
+
+.passwordGen
+{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    
+}
+
+.generate
+{
+    font-size: 2.7rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.pass_title
+{
+    display: inline-block;
+    font-size: 2.7rem;
+    color: #058957;
+    padding-bottom: 0.9rem;
+    border-bottom: 3px solid #058957;
+    /* margin-bottom: 1.5rem; */
+}
+
+.search_box
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+#copy_img
+{
+    width: 1.7rem;
+    cursor: pointer;
+}
+
+#input_field
+{
+    background: none;
+    border: none;
+    outline: 0;
+    font-size: 24px;
+}
+
+#input_field::placeholder
+{
+    font-size: 24px;
+}
+
+#btn
+{
+    background: #018452;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    padding: 16px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn img
+{
+    width: 28px;
+    margin-right: 10px;
+}
